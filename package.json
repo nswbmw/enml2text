@@ -1,0 +1,30 @@
+{
+  "name": "enml2text",
+  "version": "0.1.0",
+  "description": "parse ENML to TEXT. Only for plain text writed in your evernote.",
+  "main": "lib/enml2text",
+  "scripts": {
+    "test": "node test/enml2text.js"
+  },
+  "keywords": [
+    "enml",
+    "enml2text"
+  ],
+  "dependencies": {
+    "htmlparser2": "^3.8.3"
+  },
+  "author": {
+    "name": "nswbmw",
+    "email": "nswbmw1992@gmail.com"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nswbmw/enml2text.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nswbmw/enml2text/issues"
+  }
+}
