@@ -1,6 +1,6 @@
 {
   "name": "enml2text",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "parse ENML to TEXT. Only for plain text writed in your evernote.",
   "main": "lib/enml2text",
   "scripts": {
