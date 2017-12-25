@@ -1,24 +1,23 @@
 {
   "name": "enml2text",
-  "version": "0.1.1",
-  "description": "parse ENML to TEXT. Only for plain text writed in your evernote.",
+  "version": "1.0.0",
+  "description": "parse ENML to TEXT. Only for plain text(or Markdown) writed in your evernote.",
   "main": "lib/enml2text",
   "scripts": {
     "test": "node test/enml2text.js"
   },
   "keywords": [
+    "evernote",
     "enml",
-    "enml2text"
+    "text",
+    "markdown"
   ],
-  "dependencies": {
-    "htmlparser2": "^3.8.3"
-  },
   "author": {
     "name": "nswbmw",
-    "email": "nswbmw1992@gmail.com"
+    "url": "https://github.com/nswbmw"
   },
   "engines": {
-    "node": ">= 4"
+    "node": ">= 6"
   },
   "repository": {
     "type": "git",
@@ -26,5 +25,12 @@
   },
   "bugs": {
     "url": "https://github.com/nswbmw/enml2text/issues"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "11.0.0-beta.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-node": "5.2.1",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-standard": "3.0.1"
   }
 }

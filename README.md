@@ -1,14 +1,10 @@
 ## enml2text
 
-parse ENML to TEXT. Only for plain text writed in your evernote.
-
-### Install
-
-    $ npm i enml2text --save
+parse ENML to TEXT. Only for plain text(or Markdown) writed in your evernote.
 
 ### Example
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>\n
 <!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">\n
 <en-note>\n
@@ -44,8 +40,8 @@ MIT
 
 ### Test
 
-```
-npm test
+```sh
+$ npm test
 ```
 
 ### License
